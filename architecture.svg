@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1040" viewBox="0 0 1200 1040">
+<title>Mini MapReduce word count architecture</title>
+<desc>Input is split into three chunks mapped independently, then shuffled, grouped, and reduced to final word counts. Local process simulation.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#52657a"/></marker></defs>
+<rect width="1200" height="1040" fill="#f5f8fc"/>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<text x="600" y="42" font-size="27" fill="#17324d" font-weight="bold">Mini MapReduce Word Count</text>
+<text x="600" y="72" font-size="18" fill="#52657a">Local multiprocessing simulation · three-chunk example</text>
+<polyline points="600,160 600,210" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="600,275 600,310 230,310 230,350" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="600,275 600,350" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="600,275 600,310 970,310 970,350" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="230,415 230,490" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="600,415 600,490" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="970,415 970,490" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="230,555 230,605 600,605 600,640" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="600,555 600,640" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="970,555 970,605 600,605 600,640" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="600,705 600,770" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="600,835 600,900" fill="none" stroke="#52657a" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="420" y="95" width="360" height="65" rx="12" fill="#e2f3ea" stroke="#28618a" stroke-width="2"/>
+<text x="600" y="135" font-size="23" fill="#17324d">INPUT TEXT</text>
+<rect x="420" y="210" width="360" height="65" rx="12" fill="#e2f3ea" stroke="#28618a" stroke-width="2"/>
+<text x="600" y="250" font-size="23" fill="#17324d">TEXT SPLITTER</text>
+<rect x="100" y="350" width="260" height="65" rx="12" fill="#e4f2ff" stroke="#28618a" stroke-width="2"/>
+<text x="230" y="390" font-size="23" fill="#17324d">CHUNK 1</text>
+<rect x="470" y="350" width="260" height="65" rx="12" fill="#e4f2ff" stroke="#28618a" stroke-width="2"/>
+<text x="600" y="390" font-size="23" fill="#17324d">CHUNK 2</text>
+<rect x="840" y="350" width="260" height="65" rx="12" fill="#e4f2ff" stroke="#28618a" stroke-width="2"/>
+<text x="970" y="390" font-size="23" fill="#17324d">CHUNK 3</text>
+<rect x="100" y="490" width="260" height="65" rx="12" fill="#e4f2ff" stroke="#28618a" stroke-width="2"/>
+<text x="230" y="530" font-size="23" fill="#17324d">MAP 1</text>
+<rect x="470" y="490" width="260" height="65" rx="12" fill="#e4f2ff" stroke="#28618a" stroke-width="2"/>
+<text x="600" y="530" font-size="23" fill="#17324d">MAP 2</text>
+<rect x="840" y="490" width="260" height="65" rx="12" fill="#e4f2ff" stroke="#28618a" stroke-width="2"/>
+<text x="970" y="530" font-size="23" fill="#17324d">MAP 3</text>
+<rect x="420" y="640" width="360" height="65" rx="12" fill="#e2f3ea" stroke="#28618a" stroke-width="2"/>
+<text x="600" y="680" font-size="23" fill="#17324d">SHUFFLE &amp; GROUP</text>
+<rect x="420" y="770" width="360" height="65" rx="12" fill="#e2f3ea" stroke="#28618a" stroke-width="2"/>
+<text x="600" y="810" font-size="23" fill="#17324d">REDUCE</text>
+<rect x="420" y="900" width="360" height="65" rx="12" fill="#e2f3ea" stroke="#28618a" stroke-width="2"/>
+<text x="600" y="940" font-size="23" fill="#17324d">FINAL WORD COUNTS</text>
+</g></svg>

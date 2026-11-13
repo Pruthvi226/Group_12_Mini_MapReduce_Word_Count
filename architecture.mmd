@@ -1,0 +1,13 @@
+flowchart TD
+    I[INPUT TEXT] --> S[TEXT SPLITTER]
+    S --> C1[CHUNK 1]
+    S --> C2[CHUNK 2]
+    S --> C3[CHUNK 3]
+    C1 --> M1[MAP 1]
+    C2 --> M2[MAP 2]
+    C3 --> M3[MAP 3]
+    M1 --> G[SHUFFLE & GROUP]
+    M2 --> G
+    M3 --> G
+    G --> R[REDUCE]
+    R --> O[FINAL WORD COUNTS]

@@ -1,0 +1,9 @@
+Group Number: [ENTER GROUP NUMBER]
+
+Project Title: Mini MapReduce Word Count Demo
+
+Member 1: [NAME] – [ROLL NUMBER]
+
+Member 2: [NAME] – [ROLL NUMBER]
+
+Member 3: [NAME] – [ROLL NUMBER]
