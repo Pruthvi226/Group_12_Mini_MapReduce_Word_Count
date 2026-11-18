@@ -6,7 +6,8 @@ cut pauses if needed. Save the actual recording as `demo_video.mp4` in the root.
 
 ## 0:00–0:20 — Group introduction
 
-“Hello, we are Group [NUMBER]. Our members are [NAMES]. Our project is Mini
+“Hello, we are Group 12. Our members are Nilkamal Dhruw, Nishika, Onnkareshwar,
+Palak, and Panduga Pruthvi Raj. Our project is Mini
 MapReduce Word Count Demo. We use Python and Streamlit to show a local simulation
 of distributed processing.”
 

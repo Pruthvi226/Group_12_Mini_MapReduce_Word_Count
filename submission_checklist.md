@@ -2,8 +2,8 @@
 
 ## Prepare and verify
 
-- [ ] Rename the root folder to `Group_<Number>_MapReduceWordCount` using the actual group number.
-- [ ] Fill in `group_details.txt` with actual names and roll numbers.
+- [ ] Confirm the existing root folder is `Group_XX_MapReduceWordCount`.
+- [ ] Confirm `group_details.txt` contains Group 12 and all member details.
 - [ ] Confirm `/code/` includes app.py, mapreduce.py, requirements.txt, sample_input.txt, and tests/test_mapreduce.py.
 - [ ] Include README.md, architecture.png, architecture.svg, and architecture.mmd.
 - [ ] Include demo_script.md and the peer-evaluation checklist for reference.
@@ -12,8 +12,7 @@
 - [ ] Launch Streamlit and demonstrate manual input, upload, sample, clear, intermediate output, and final counts.
 - [ ] Confirm the three-chunk sample gives apple=3, banana=2, orange=1.
 - [ ] Confirm timings are correctly labelled and explain process startup overhead.
-- [ ] Record a real video below five minutes and save it as root-level `demo_video.mp4`.
-- [ ] Play the recording completely and check that screen text and narration are clear.
+- [ ] Prepare the demo video separately; no demo video is included.
 - [ ] Exclude `.venv`, caches, and unrelated personal files from submission.
 
 ## Upload to Google Drive and submit

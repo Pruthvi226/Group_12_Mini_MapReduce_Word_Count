@@ -1,9 +1,11 @@
-Group Number: [ENTER GROUP NUMBER]
+Group Number: 12
 
-Project Title: Mini MapReduce Word Count Demo
+Project Title: Mini MapReduce Word Count Demo (Local Simulation)
 
-Member 1: [NAME] – [ROLL NUMBER]
+Group Members:
 
-Member 2: [NAME] – [ROLL NUMBER]
-
-Member 3: [NAME] – [ROLL NUMBER]
+Nilkamal Dhruw – 241000056
+Nishika – 241000057
+Onnkareshwar – 241000058
+Palak – 241000059
+Panduga Pruthvi Raj – 241000060

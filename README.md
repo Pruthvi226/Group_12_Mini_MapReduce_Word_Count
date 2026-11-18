@@ -1,8 +1,16 @@
-# Mini MapReduce Word Count Demo – Local Distributed Processing Simulation
+# Mini MapReduce Word Count Demo – Local Simulation
 
 This undergraduate mini-project demonstrates functional decomposition: split text,
 map chunks independently, group intermediate counts, and reduce them into word totals.
 It runs entirely on one machine. It is **not a real network-distributed cluster**.
+
+## Project and group details
+
+- **Group:** 12
+- **Project:** Mini MapReduce Word Count Demo (Local Simulation)
+- **Members:** Nilkamal Dhruw – 241000056; Nishika – 241000057;
+  Onnkareshwar – 241000058; Palak – 241000059; Panduga Pruthvi Raj – 241000060
+- **Subject:** Distributed Systems
 
 ## Files
 
@@ -25,9 +33,10 @@ Group_XX_MapReduceWordCount/
 └── peer_evaluation_checklist.md
 ```
 
-The group must record and add the actual `demo_video.mp4` before submission.
-No placeholder video is supplied. Rename the folder to
-`Group_<Number>_MapReduceWordCount` and fill in `group_details.txt`.
+The project folder and member details are Group 12 placeholders currently named
+`Group_XX_MapReduceWordCount`; they are retained to preserve the existing folder.
+The member details are complete in `group_details.txt`. A demo video is
+intentionally excluded and will be prepared separately.
 
 ## Features
 
@@ -82,8 +91,8 @@ by the CPU count and number of chunks.
 ## Ubuntu installation and execution
 
 Open a terminal in the parent directory containing the extracted project folder.
-These commands assume the supplied `Group_XX_MapReduceWordCount` name; substitute
-your renamed folder if applicable. Use an Ubuntu version with Python 3.10+.
+These commands use the existing `Group_XX_MapReduceWordCount` folder name.
+Use an Ubuntu version with Python 3.10+.
 
 ```bash
 sudo apt update

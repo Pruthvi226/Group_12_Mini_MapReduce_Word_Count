@@ -84,3 +84,20 @@ def test_empty_parallel_and_invalid_workers():
     assert run_mappers([], parallel=True).outputs == []
     with pytest.raises(ValueError):
         run_mappers(["a"], parallel=True, max_workers=0)
+
+
+def test_reduce_returns_alphabetical_output():
+    grouped = {"orange": [1], "apple": [1, 1, 1], "banana": [1, 1]}
+    assert list(reduce_counts(grouped).items()) == [
+        ("apple", 3), ("banana", 2), ("orange", 1)]
+
+
+def test_large_text_and_total_consistency():
+    text = (" ".join(["Alpha", "beta", "ALPHA", "gamma"] * 250)
+            + "\nDelta, delta! epsilon")
+    chunks = split_text(text, 32)
+    outputs = run_mappers(chunks).outputs
+    final = reduce_counts(shuffle_results(outputs))
+    assert len(chunks) == 32
+    assert sum(final.values()) == len(tokenize(text))
+    assert final == map_chunk(text)

@@ -55,8 +55,8 @@ def shuffle_results(map_outputs: list[dict[str, int]]) -> dict[str, list[int]]:
 
 
 def reduce_counts(grouped_data: dict[str, list[int]]) -> dict[str, int]:
-    """Sum the intermediate counts for each word."""
-    return {word: sum(counts) for word, counts in grouped_data.items()}
+    """Sum the intermediate counts and return words in alphabetical order."""
+    return {word: sum(grouped_data[word]) for word in sorted(grouped_data)}
 
 
 @dataclass
